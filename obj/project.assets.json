@@ -202,9 +202,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\sandbox.csproj",
-      "projectName": "sandbox",
-      "projectPath": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\sandbox.csproj",
+      "projectUniqueName": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\Andresom.csproj",
+      "projectName": "Andresom",
+      "projectPath": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\Andresom.csproj",
       "packagesPath": "C:\\Users\\ll1on\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\obj\\",
       "projectStyle": "PackageReference",
