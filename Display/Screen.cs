@@ -110,17 +110,18 @@ namespace Andresom.Screenes
             return HeroType.Knight; // заглушка.
         }
 
-        public static void Fight(Enemy enemy, Hero user)
+        public static async Task Fight(Enemy enemy, Hero user)
         {
+            Random random = new Random();
+            //const string test = Convert.ToString(user.Weapon.RequirementEnergy);
             string enemyModel = enemy.Model;
             string userModel = user.Model;
             bool isContinue = true;
 
             while (isContinue)
             {
-                if (enemy.Health == 0) Win();
-                enemy.RestoreStamina();
-                user.RestoreStamina();
+                if (enemy.Health <= 0) Win();
+                if(user.Health <= 0) Lose(); 
 
                 AnsiConsole.Clear();
                 var arenaRule = new Rule("[red]⚔️ АРЕНА ⚔️[/]");
@@ -163,14 +164,48 @@ namespace Andresom.Screenes
                 var choice = AnsiConsole
                         .Prompt(new SelectionPrompt<string>() // собираем список
                         .HighlightStyle(new Style(foreground: Color.Red)) // цвет выбранного пункта списка
-                        .AddChoices("Attack ( 20 energy )", "Skip", "Inventory", "Exit game")); // варианты списака
+                        .AddChoices($"Attack ( -{user.Weapon.RequirementEnergy} energy )", "Skip ( +10 energy )", "Inventory", "Exit game")); // варианты списака
 
                 switch (choice)
                 {
-                    case "Attack ( 20 energy )": user.Attack(enemy); break;
+                    case $"Attack ( -10 energy )":
+                    case $"Attack ( -15 energy )":
+                    case $"Attack ( -20 energy )": if(!user.AttackEnemy(enemy)) Energy(); break;
+                    case "Skip ( +10 energy )": user.RestoreStamina(); break;
                     case "Exit game": GoodBye(); break;
                 }
+
+                int enemyChoice = random.Next(1, 4);
+                switch (enemyChoice)
+                {
+                    case 1:
+                    case 2:
+                    case 3: enemy.AttackUser(user); break;
+                    case 4: enemy.RestoreStamina(); break;
+                }
             }
+        }
+
+        private static void Energy()
+        {
+            AnsiConsole.Clear();
+            TopSpace(10);
+            var energyTitle = new Panel(new FigletText("           NO ENERGY!").Color(Color.Red))
+                .BorderColor(Color.Black);
+            AnsiConsole.Write(energyTitle);
+            Thread.Sleep(2000);
+            return;
+        }
+
+        private static void Lose()
+        {
+            AnsiConsole.Clear();
+            TopSpace(10);
+            var loseTitle = new Panel(new FigletText("              YOU LOSE...").Color(Color.Red))
+                .BorderColor(Color.Black);
+            AnsiConsole.Write(loseTitle);
+            Thread.Sleep(2000);
+            Environment.Exit(0);
         }
 
         private static void Win()

@@ -1,10 +1,9 @@
-﻿namespace Andresom.DamageTypes
+﻿namespace Andresom.DamageTypes;
+
+public enum DamageType : byte
 {
-    public enum DamageType : byte
-    {
-        None = 0,
-        PhysicalDamage,
-        MagicDamage,
-        RangeDamage
-    }
+    None = 0,
+    PhysicalResist,
+    MagicDamage,
+    RangeDamage
 }

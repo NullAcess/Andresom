@@ -1,8 +1,8 @@
-﻿namespace Andresom.Models
+﻿namespace Andresom.Models;
+
+static class Model
 {
-    static class Model
-    {
-        static public string KnightSprite { get; private set; } = @"
+    public static readonly string KnightSprite = @"
       ___
     _/[_]\_
    | [o_o] |
@@ -13,7 +13,7 @@
     |     |
     |_____|
    /__/ \__\";
-        static public string WizzardSprite { get; private set; } = @"
+    public static readonly string WizzardSprite = @"
        /^\
       / _ \
      / | | \
@@ -24,7 +24,7 @@
    | ||   || |
    | ||___|| |
    |_|/   \|_|";
-        static public string ArcherSprite { get; private set; } = @"
+    public static readonly string ArcherSprite  = @"
        _.--._
       /  __  \
      | [o_o] |
@@ -35,7 +35,7 @@
 \|    |     |
       |_____|
      /__/ \__\";
-        static public string OrcSprite { get; private set; } = @"
+    public static readonly string OrcSprite = @"
      _______
     / .   . \
    |  > _ <  |
@@ -46,7 +46,7 @@
   |_|/   \|_|
     |     |
    /__\   /__\";
-        static public string SkeletonSprite { get; private set; } = @"
+    public static readonly string SkeletonSprite = @"
       ___
      /   \
     | o_o |
@@ -57,5 +57,4 @@
    |_|/ \|_|
      |   |
     /_\ /_\";
-    }
 }

@@ -202,11 +202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\Andresom.csproj",
+      "projectUniqueName": "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\Andresom.csproj",
       "projectName": "Andresom",
-      "projectPath": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\Andresom.csproj",
+      "projectPath": "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\Andresom.csproj",
       "packagesPath": "C:\\Users\\ll1on\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ll1on\\source\\repos\\sandbox\\sandbox\\obj\\",
+      "outputPath": "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

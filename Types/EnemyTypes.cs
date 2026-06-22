@@ -1,10 +1,8 @@
-﻿namespace Andresom.HeroTypes
+﻿namespace Andresom.EnemyTypes;
+
+public enum EnemyType : byte
 {
-    public enum HeroType : byte
-    {
-        None = 0,
-        Knight,
-        Wizzard,
-        Archer
-    }
+    None = 0,
+    Orc,
+    Skeleton,
 }

@@ -1,22 +1,27 @@
 ﻿using Andresom.Weapones;
 using Andresom.Enemies;
 using Andresom.Entities;
+using Andresom.Screenes;
 
-namespace Andresom.Heroes
+namespace Andresom.Heroes;
+
+abstract internal class Hero : Entity
 {
-    abstract internal class Hero : Entity
+    public float PhysicalResist { get; private protected set; } = 0;
+    public Hero(Weapon weapon, string model, byte health, byte stamina, float physicalResist) : base(weapon, model, health, stamina)
     {
-        public Hero(Weapon weapon, string model, byte health, byte stamina) : base(weapon, model, health, stamina)
-        {
-            
-        }
-
-        public void Attack(Enemy enemy)
-        {
-            if (this.Stamina - 20 <= 0) this.Stamina = 0;
-            else this.Stamina -= 20;
-            // AttackedEnemy(enemy, DamageType, Damage);
-        }
-        public void RestoreStamina() => StaminaSettings(this);
+        
     }
+
+    public bool AttackEnemy(Enemy enemy)
+    {
+        if (this.Stamina - this.Weapon.RequirementEnergy < 0) return false;
+        else 
+        { 
+            this.Stamina -= this.Weapon.RequirementEnergy;
+            AttackedEnemyTarget(enemy, this); 
+            return true; 
+        }
+    }
+    public void RestoreStamina() => StaminaSettings(this);
 }

@@ -1,49 +1,45 @@
 ﻿using Andresom.DamageTypes;
 using Andresom.Enemies;
-using Andresom.Orcs;
 using Andresom.Weapones;
+using Andresom.Heroes;
+using Andresom.Orcses;
+using Andresom.Skeletones;
+using Andresom.Knightes;
+using Andresom.Wizzardes;
+using Andresom.Archeres;
 
-namespace Andresom.Entities
+namespace Andresom.Entities;
+
+abstract internal class Entity
 {
-    abstract internal class Entity
+    public string Model { get; private protected set; } = "Model not found";
+    public Weapon Weapon { get; private protected set; }
+    public byte Health { get; private protected set; } = 100;
+    public byte Stamina { get; private protected set; } = 100;
+
+    public Entity(Weapon weapon, string model, byte health, byte stamina)
     {
-        public string Model { get; private protected set; } = "Model not found";
-        public Weapon Weapon { get; protected set; }
-        public byte Health { get; private protected set; } = 100;
-        public byte Stamina { get; private protected set; } = 100;
+        this.Weapon = weapon;
+        this.Model = model;
+        this.Health = health;
+        this.Stamina = stamina;
+    }
 
-        public Entity(Weapon weapon, string model, byte health, byte stamina)
-        {
-            this.Weapon = weapon;
-            this.Model = model;
-            this.Health = health;
-            this.Stamina = stamina;
-        }
+    private protected virtual void AttackedEnemyTarget(Entity target, Entity initiator)
+    {
+        if(target is Orc) target.AttackedEnemyTarget(target, initiator);
+        if(target is Skeleton) target.AttackedEnemyTarget(target, initiator);
+    }
+    private protected virtual void AttackedUserTarget(Entity target, Entity initiator)
+    {
+        if (target is Knight) target.AttackedUserTarget(target, initiator);
+        if (target is Wizzard) target.AttackedUserTarget(target, initiator);
+        if (target is Archer) target.AttackedUserTarget(target, initiator);
+    }
 
-        private protected void AttackedEnemy(Enemy target, DamageType damageType, byte damage)
-        {
-            if (target is Orc && damageType == DamageType.PhysicalDamage)
-            {
-                damage = (byte)(damage * target.PhisycalResist);
-            }
-
-            else if (target is Orc && damageType == DamageType.MagicDamage)
-            {
-                damage = (byte)(damage * target.MagicResist);
-            }
-            else if(target is Orc && damageType == DamageType.RangeDamage)
-            {
-                damage = (byte)(damage * target.RangeResist);
-            }
-
-            if(target.Health - damage < 0) target.Health = 0;
-            else target.Health -= damage;
-        }
-
-        private protected void StaminaSettings(Entity target)
-        {
-            if(target.Stamina + 10 >= 100) target.Stamina = 100;
-            else target.Stamina += 10;
-        }
+    private protected void StaminaSettings(Entity target)
+    {
+        if(target.Stamina + 10 >= 100) target.Stamina = 100;
+        else target.Stamina += 10;
     }
 }
