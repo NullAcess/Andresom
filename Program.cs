@@ -25,7 +25,7 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.InputEncoding = System.Text.Encoding.UTF8;
 
-        Weapon sword = new Sword(requirementEnergy: 20, DamageType.PhysicalResist, damage: 200);
+        Weapon sword = new Sword(requirementEnergy: 20, DamageType.PhysicalResist, damage: 40);
         Weapon magicStick = new MagicStick(requirementEnergy: 15, DamageType.MagicDamage, damage: 25);
         Weapon bow = new Bow(requirementEnergy: 10, DamageType.RangeDamage, damage: 15);
         Weapon nastyClub = new NastyClub(requirementEnergy: 30, DamageType.PhysicalResist, damage: 80);
@@ -49,7 +49,7 @@ class Program
         switch (enemyType)
         {
             case EnemyType.Skeleton: npcEnemy = new Skeleton(weapon: hands, physicalResist: 0.9f, magicResist: 0.4f, rangeResist: 0.3f, model: Model.SkeletonSprite, health: 50, stamina: 100); break;
-            case EnemyType.Orc: npcEnemy = new Orc(weapon: nastyClub,physicalResist: 0.5f, magicResist: 0.9f, rangeResist: 0.8f, model: Model.OrcSprite, health: 250, stamina: 100); break;
+            case EnemyType.Orc: npcEnemy = new Orc(weapon: nastyClub,physicalResist: 0.45f, magicResist: 0.9f, rangeResist: 0.8f, model: Model.OrcSprite, health: 250, stamina: 100); break;
             default: npcEnemy = new Orc(weapon: nastyClub, physicalResist: 0.4f, magicResist: 0.9f, rangeResist: 0.8f, model: Model.OrcSprite, health: 250, stamina: 100); break;
         }
 
