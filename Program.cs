@@ -28,7 +28,7 @@ class Program
         Weapon sword = new Sword(requirementEnergy: 20, DamageType.PhysicalResist, damage: 40);
         Weapon magicStick = new MagicStick(requirementEnergy: 15, DamageType.MagicDamage, damage: 25);
         Weapon bow = new Bow(requirementEnergy: 10, DamageType.RangeDamage, damage: 15);
-        Weapon nastyClub = new NastyClub(requirementEnergy: 30, DamageType.PhysicalResist, damage: 80);
+        Weapon nastyClub = new NastyClub(requirementEnergy: 30, DamageType.PhysicalResist, damage: 75);
         Weapon hands = new Hands(requirementEnergy: 15, DamageType.PhysicalResist, damage: 20);
         Random random = new Random();
         Hero userHero;
