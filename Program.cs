@@ -18,6 +18,8 @@ using Andresom.Wizzardes;
 
 namespace Program;
 
+// !GIT COMMIT TEST HE
+
 class Program
 {
     private static void Main()

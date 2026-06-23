@@ -15,7 +15,7 @@ internal class Wizzard : Hero
         this.Stamina = stamina;
     }
 
-    private protected override void AttackedUserTarget(Entity target, Entity initiator)
+    private protected override void Attacked_User_Target(Entity target, Entity initiator)
     {
         if (this.Health - initiator.Weapon.Damage * PhysicalResist <= 0) Health = 0;
         else this.Health -= (byte)(initiator.Weapon.Damage * PhysicalResist);
