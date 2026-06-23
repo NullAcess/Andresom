@@ -1,0 +1,88 @@
+[33mcommit f0e9b07e926d02a5e02f33b098ad783dc2745059[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: NullAcess <153278494+NullAcess@users.noreply.github.com>
+Date:   Tue Jun 23 13:36:19 2026 +0300
+
+    Revert "Test commit by git"
+    
+    This reverts commit 28853dd1251f79b36e996ed3a347b3f57a069ec6.
+
+[33mcommit 5133797399390e6e38e222aba9cd2f7b55e5f889[m
+Merge: b7b80a8 71119a2
+Author: NullAcess <153278494+NullAcess@users.noreply.github.com>
+Date:   Tue Jun 23 13:35:39 2026 +0300
+
+    change to 46
+
+[33mcommit b7b80a846c796a22a4d3ad7316b3c888a758fa4a[m
+Author: NullAcess <153278494+NullAcess@users.noreply.github.com>
+Date:   Tue Jun 23 13:29:59 2026 +0300
+
+    change to 46
+
+[33mcommit 71119a2f4837fedcddb82201a8276a0dea2f3dc8[m[33m ([m[1;32mfeature/test[m[33m)[m
+Author: NullAcess <153278494+NullAcess@users.noreply.github.com>
+Date:   Tue Jun 23 13:29:37 2026 +0300
+
+    change to 43
+
+[33mcommit 5da4e957162d62a909626e839c211ef21e250c67[m
+Author: NullAcess <153278494+NullAcess@users.noreply.github.com>
+Date:   Tue Jun 23 13:29:30 2026 +0300
+
+    change to 42
+
+[33mcommit fc4b714d1a5a46f6dbe37858d074bf02a7e18f8f[m[33m ([m[1;31morigin/feature/test[m[33m)[m
+Author: NullAcess <153278494+NullAcess@users.noreply.github.com>
+Date:   Tue Jun 23 13:14:18 2026 +0300
+
+    change sword damage to 41 ( test for git )
+
+[33mcommit 28853dd1251f79b36e996ed3a347b3f57a069ec6[m
+Author: NullAcess <ll1ontte@gmail.com>
+Date:   Tue Jun 23 12:09:28 2026 +0300
+
+    Test commit by git
+
+[33mcommit 8fc9160b7353aaab48fca718635b8f5a36fb4334[m
+Author: NullAcess <ll1ontte@gmail.com>
+Date:   Tue Jun 23 12:08:43 2026 +0300
+
+    Rename Method
+
+[33mcommit 373cc678e05b62f3e8ae2ed649e300daa187d03f[m
+Author: NullAcess <ll1ontte@gmail.com>
+Date:   Tue Jun 23 12:01:17 2026 +0300
+
+    Revert "Test commit by git"
+    
+    This reverts commit dfb99e660b139f806e3ca1881c61859a6c758545.
+
+[33mcommit dfb99e660b139f806e3ca1881c61859a6c758545[m
+Author: NullAcess <ll1ontte@gmail.com>
+Date:   Tue Jun 23 11:43:54 2026 +0300
+
+    Test commit by git
+
+[33mcommit 3d916b8e3c89d172427430f179b3c11432ff530f[m
+Author: Shvets Andrey <ll1ontte@gmail.com>
+Date:   Mon Jun 22 23:27:51 2026 +0300
+
+    Beta release 1
+
+[33mcommit 130483fbed1f0958a99c9ceb7c4b132b101c7a15[m
+Author: Shvets Andrey <ll1ontte@gmail.com>
+Date:   Mon Jun 22 16:56:29 2026 +0300
+
+    Alpha 0.2
+
+[33mcommit b0410d0a561f2657e78caa004abff17b5c9f8e09[m
+Author: Shvets Andrey <ll1ontte@gmail.com>
+Date:   Sun Jun 21 13:27:45 2026 +0300
+
+    beta 1
+
+[33mcommit b46139f981ff88fa8f830aa18c78571ad493699b[m
+Author: Shvets Andrey <ll1ontte@gmail.com>
+Date:   Sun Jun 21 13:23:47 2026 +0300
+
+    Initial commit
