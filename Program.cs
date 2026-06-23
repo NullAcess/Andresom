@@ -27,7 +27,7 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.InputEncoding = System.Text.Encoding.UTF8;
 
-        Weapon sword = new Sword(requirementEnergy: 20, DamageType.PhysicalResist, damage: 41);
+        Weapon sword = new Sword(requirementEnergy: 20, DamageType.PhysicalResist, damage: 42);
         Weapon magicStick = new MagicStick(requirementEnergy: 15, DamageType.MagicDamage, damage: 25);
         Weapon bow = new Bow(requirementEnergy: 10, DamageType.RangeDamage, damage: 15);
         Weapon nastyClub = new NastyClub(requirementEnergy: 30, DamageType.PhysicalResist, damage: 80);
