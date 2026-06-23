@@ -21,7 +21,8 @@ internal class Orc : Enemy
     }
 
     private protected override void AttackedEnemyTarget(Entity target, Entity initiator)
-    {
+    { 
+
         if (initiator is Knight && initiator.Weapon.DamageTypes == DamageType.PhysicalResist)
         {
             if (this.Health - initiator.Weapon.Damage * PhisycalResist <= 0) this.Health = 0;

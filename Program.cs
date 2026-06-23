@@ -50,8 +50,8 @@ class Program
             int enemyType = random.Next(1, 3); // рандомно выбираем число
             switch (enemyType) // по числу выбираем монстра ( врага )
             {
-                case 1: enemy = new Skeleton(weapon: hands, physicalResist: 0.9f, magicResist: 0.4f, rangeResist: 0.3f, model: Model.SkeletonSprite, health: 50, stamina: 100); break;
-                case 2: enemy = new Orc(weapon: nastyClub, physicalResist: 0.5f, magicResist: 0.9f, rangeResist: 0.8f, model: Model.OrcSprite, health: 250, stamina: 100); break;
+                case 1: enemy = new Skeleton(weapon: hands, physicalResist: 0.9f, magicResist: 0.4f, rangeResist: 0.3f, model: Model.SkeletonSprite, health: 50, stamina: 100); break; 
+                case 2: enemy = new Orc(weapon: nastyClub, physicalResist: 0.5f, magicResist: 0.9f, rangeResist: 0.8f, model: Model.OrcSprite, health: 250, stamina: 100); break; 
                 default: enemy = new Skeleton(weapon: hands, physicalResist: 0.9f, magicResist: 0.4f, rangeResist: 0.3f, model: Model.SkeletonSprite, health: 50, stamina: 100); break;
             }
 

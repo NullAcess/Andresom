@@ -22,7 +22,7 @@ namespace Andresom.Screenes
             var topLogoPanel = new Panel(new FigletText("    ANDRESOM").Color(Color.Red)) // создаем логотип "ANDRESOM"
                 .BorderColor(Color.Black);
 
-            var bottomDescriptionPanel = new Panel("Всем привет, кто читает это. В общем игра только делается и несет в себе просто обучающий характер, но может кому-то понравиться спустя несколько лет. Игра только делается и на этом все в целом. ❤️\n\n\n\n\n\n\n\n\n\nBy: 2 Студента ITHUB 1ИТ3 2026")
+            var bottomDescriptionPanel = new Panel("Всем привет, кто читает это. В общем игра только делается и несет в себе просто обучающий характер, но может кому-то понравиться спустя несколько лет. Игра только делается и на этом все в целом. ❤️\n\n\n\n\n\n\n\n\n\nBy: Ш.А.С ITHUB 1ИТ3 2026")
                 .Header("[red]DESCRIPTION[/]", Justify.Center)
                 .Border(BoxBorder.Rounded)
                 .BorderColor(Color.Gray23);
@@ -176,23 +176,28 @@ namespace Andresom.Screenes
                     case "Exit game": GoodBye(); break;
                 }
 
-                if (enemy.Health <= 0)
-                {
-                    if(countOfWaves == 1) return;
+                    if (enemy.Health <= 0)
+                    {
+                        Console.WriteLine("Enemy: 💀 Aaaahhhhhhh........");
+                        Thread.Sleep(2500);
 
-                    NextWave();
-                    user.RestoreUserStamina(true);
-                    return;
-                }
+                        if (countOfWaves == 1) return;
 
-                int enemyChoice = random.Next(1, 5);
-                switch (enemyChoice)
-                {
-                    case 1:
-                    case 2:
-                    case 3: enemy.AttackUser(user); break;
-                    case 4: enemy.RestoreEnemyStamina(); break;
-                }
+                        NextWave();
+                        user.RestoreUserStamina(true);
+                        return;
+                    }
+
+                int enemyDialogProcent = random.Next(1, 101);
+                if (enemyDialogProcent < 8) { AnsiConsole.WriteLine("Enemy: 😡 You will regret this!"); Thread.Sleep(2500); }
+                else if (enemyDialogProcent > 8 && enemyDialogProcent <= 15) { AnsiConsole.WriteLine("Enemy: 😡 Watch your back!!!"); Thread.Sleep(2500); }
+                else if (enemyDialogProcent > 15 && enemyDialogProcent <= 25) { AnsiConsole.WriteLine("Enemy: 😡 I'm warning you..."); Thread.Sleep(2500); }
+                else if (enemyDialogProcent > 25 && enemyDialogProcent <= 35) { AnsiConsole.WriteLine("Enemy: 😡 Don't push your luck."); Thread.Sleep(2500); }
+                else { }
+
+                int enemyChoiceProcent = random.Next(1, 101);
+                if(enemyChoiceProcent < 70) enemy.AttackUser(user);
+                else enemy.RestoreEnemyStamina();
             }
         }
 

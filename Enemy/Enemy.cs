@@ -20,6 +20,7 @@ abstract internal class Enemy : Entity
     }
     public void AttackUser(Hero user)
     {
+        
         if (this.Stamina - this.Weapon.RequirementEnergy < 0) RestoreEnemyStamina();
         else
         {

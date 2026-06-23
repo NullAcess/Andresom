@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Andresom/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4",
+          "Spectre.Console": "0.57.0",
+          "Spectre.Console.ImageSharp": "0.57.0"
+        },
+        "runtime": {
+          "Andresom.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.12": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.12.0"
+          }
+        }
+      },
+      "Spectre.Console/0.57.0": {
+        "dependencies": {
+          "Spectre.Console.Ansi": "0.57.0"
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.57.0.0"
+          }
+        }
+      },
+      "Spectre.Console.Ansi/0.57.0": {
+        "runtime": {
+          "lib/net10.0/Spectre.Console.Ansi.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.57.0.0"
+          }
+        }
+      },
+      "Spectre.Console.ImageSharp/0.57.0": {
+        "dependencies": {
+          "SixLabors.ImageSharp": "3.1.12",
+          "Spectre.Console": "0.57.0"
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.ImageSharp.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.57.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Andresom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iAg6zifihXEFS/t7fiHhZBGAdCp3FavsF4i2ZIDp0JfeYeDVzvmlbY1CNhhIKimaIzrzSi5M/NBFcWvZT2rB/A==",
+      "path": "sixlabors.imagesharp/3.1.12",
+      "hashPath": "sixlabors.imagesharp.3.1.12.nupkg.sha512"
+    },
+    "Spectre.Console/0.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X5+4ZsUYTPlTs5PEoKRlxUuKOa1AkEoAGM34pUeJPjsBdtOnvnaVb31hqewhooomihl1i9fEBid1fz8XxZTacQ==",
+      "path": "spectre.console/0.57.0",
+      "hashPath": "spectre.console.0.57.0.nupkg.sha512"
+    },
+    "Spectre.Console.Ansi/0.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DGeYljyWAIHSeUAoUGqyzyOqS8WlsHKW+y4zOZ0OO61oqrhx90jHS+XG5Kpq/wWz6ovIs2VL/0CTKpUVa7tdWg==",
+      "path": "spectre.console.ansi/0.57.0",
+      "hashPath": "spectre.console.ansi.0.57.0.nupkg.sha512"
+    },
+    "Spectre.Console.ImageSharp/0.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vigm5wWEJUZzZeB41YIpSZucWXQbgOuvEFd7uId+78mJge9pN8H4xDlQBeMqXGAaIagSGBvn4tYd6m75WqnqYg==",
+      "path": "spectre.console.imagesharp/0.57.0",
+      "hashPath": "spectre.console.imagesharp.0.57.0.nupkg.sha512"
+    }
+  }
+}

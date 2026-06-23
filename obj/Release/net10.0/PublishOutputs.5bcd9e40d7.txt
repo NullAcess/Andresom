@@ -1,0 +1,10 @@
+C:\Users\ll1on\Desktop\Andresom\Andresom.exe
+C:\Users\ll1on\Desktop\Andresom\Andresom.dll
+C:\Users\ll1on\Desktop\Andresom\Andresom.deps.json
+C:\Users\ll1on\Desktop\Andresom\Andresom.runtimeconfig.json
+C:\Users\ll1on\Desktop\Andresom\Andresom.pdb
+C:\Users\ll1on\Desktop\Andresom\Newtonsoft.Json.dll
+C:\Users\ll1on\Desktop\Andresom\SixLabors.ImageSharp.dll
+C:\Users\ll1on\Desktop\Andresom\Spectre.Console.dll
+C:\Users\ll1on\Desktop\Andresom\Spectre.Console.Ansi.dll
+C:\Users\ll1on\Desktop\Andresom\Spectre.Console.ImageSharp.dll

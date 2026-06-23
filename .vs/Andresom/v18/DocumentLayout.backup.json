@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "Enemy\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:27:56.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T14:27:56.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Entity\\Entity.cs",
               "RelativeDocumentMoniker": "Entity\\Entity.cs",
@@ -72,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Hero.cs",
               "RelativeDocumentMoniker": "Hero\\Hero.cs",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Hero\\Hero.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAIAwwBgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:26:10.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T14:26:10.042Z"
             },
             {
               "$type": "Document",
@@ -91,7 +89,7 @@
               "RelativeDocumentMoniker": "Display\\Screen.cs",
               "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Display\\Screen.cs",
               "RelativeToolTip": "Display\\Screen.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAewLgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAewLMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T14:14:22.858Z",
               "EditorCaption": ""
@@ -104,7 +102,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwDkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAewDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T20:25:15.36Z",
               "EditorCaption": ""
