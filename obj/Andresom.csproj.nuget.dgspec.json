@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\Andresom.csproj": {}
+    "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\Andresom.csproj": {
+    "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\Andresom.csproj",
+        "projectUniqueName": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj",
         "projectName": "Andresom",
-        "projectPath": "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\Andresom.csproj",
+        "projectPath": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj",
         "packagesPath": "C:\\Users\\ll1on\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll1on\\Documents\\GitHub\\Andresom\\ANDRESOM\\obj\\",
+        "outputPath": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

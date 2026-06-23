@@ -37,8 +37,14 @@ abstract internal class Entity
         if (target is Archer) target.AttackedUserTarget(target, initiator);
     }
 
-    private protected void StaminaSettings(Entity target)
+    private protected void StaminaSettings(Entity target, bool isNewWave = false)
     {
+        if (isNewWave)
+        {
+            target.Stamina = 100;
+            return;
+        }
+
         if(target.Stamina + 10 >= 100) target.Stamina = 100;
         else target.Stamina += 10;
     }

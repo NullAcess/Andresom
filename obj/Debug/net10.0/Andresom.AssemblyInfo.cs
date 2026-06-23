@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Andresom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e9b07e926d02a5e02f33b098ad783dc2745059")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+474ad3f741ba6055d41e64f804f3251bfeeab736")]
 [assembly: System.Reflection.AssemblyProductAttribute("Andresom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Andresom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

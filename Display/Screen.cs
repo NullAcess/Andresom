@@ -1,7 +1,8 @@
 ﻿using Andresom.Enemies;
-using Andresom.Entities;
 using Andresom.Heroes;
 using Andresom.HeroTypes;
+using Andresom.Orcses;
+using Andresom.Skeletones;
 using Spectre.Console;
 
 namespace Andresom.Screenes
@@ -22,7 +23,7 @@ namespace Andresom.Screenes
                 .BorderColor(Color.Black);
 
             var bottomDescriptionPanel = new Panel("Всем привет, кто читает это. В общем игра только делается и несет в себе просто обучающий характер, но может кому-то понравиться спустя несколько лет. Игра только делается и на этом все в целом. ❤️\n\n\n\n\n\n\n\n\n\nBy: 2 Студента ITHUB 1ИТ3 2026")
-                .Header("[red]DESCRIPTION[/]", Justify.Center) 
+                .Header("[red]DESCRIPTION[/]", Justify.Center)
                 .Border(BoxBorder.Rounded)
                 .BorderColor(Color.Gray23);
             bottomDescriptionPanel.Width = 90;
@@ -49,7 +50,7 @@ namespace Andresom.Screenes
                 ctx => { Thread.Sleep(400); }); // TODO: вернуть таймер в значение с 0 до 4000
 
             var continueButton = new Panel("Press any key") // текст кнопки о продолжении
-                .BorderColor(Color.Green); 
+                .BorderColor(Color.Green);
             AnsiConsole.Write(Align.Center(continueButton));
             Console.ReadKey(); // считываем любую нажатую клавишу
         }
@@ -76,7 +77,7 @@ namespace Andresom.Screenes
 
                 TopSpace(topSpaceValue: 0);
                 var selectedClass = new Panel("Press backspace to back") // создае панель вернуться обратно
-                    .BorderColor(Color.Gray23); 
+                    .BorderColor(Color.Gray23);
                 AnsiConsole.Write(Align.Left(selectedClass));
 
                 TopSpace(topSpaceValue: 10);
@@ -110,18 +111,18 @@ namespace Andresom.Screenes
             return HeroType.Knight; // заглушка.
         }
 
-        public static async Task Fight(Enemy enemy, Hero user)
+
+        public static void Fight(Enemy enemy, Hero user, ref int countOfWaves)
         {
             Random random = new Random();
-            //const string test = Convert.ToString(user.Weapon.RequirementEnergy);
             string enemyModel = enemy.Model;
             string userModel = user.Model;
             bool isContinue = true;
 
             while (isContinue)
             {
-                if (enemy.Health <= 0) Win();
-                if(user.Health <= 0) Lose(); 
+
+                if (user.Health <= 0) Lose();
 
                 AnsiConsole.Clear();
                 var arenaRule = new Rule("[red]⚔️ АРЕНА ⚔️[/]");
@@ -170,18 +171,27 @@ namespace Andresom.Screenes
                 {
                     case $"Attack ( -10 energy )":
                     case $"Attack ( -15 energy )":
-                    case $"Attack ( -20 energy )": if(!user.AttackEnemy(enemy)) Energy(); break;
-                    case "Skip ( +10 energy )": user.RestoreStamina(); break;
+                    case $"Attack ( -20 energy )": if (!user.AttackEnemy(enemy)) Energy(); break;
+                    case "Skip ( +10 energy )": user.RestoreUserStamina(); break;
                     case "Exit game": GoodBye(); break;
                 }
 
-                int enemyChoice = random.Next(1, 4);
+                if (enemy.Health <= 0)
+                {
+                    if(countOfWaves == 1) return;
+
+                    NextWave();
+                    user.RestoreUserStamina(true);
+                    return;
+                }
+
+                int enemyChoice = random.Next(1, 5);
                 switch (enemyChoice)
                 {
                     case 1:
                     case 2:
                     case 3: enemy.AttackUser(user); break;
-                    case 4: enemy.RestoreStamina(); break;
+                    case 4: enemy.RestoreEnemyStamina(); break;
                 }
             }
         }
@@ -208,7 +218,17 @@ namespace Andresom.Screenes
             Environment.Exit(0);
         }
 
-        private static void Win()
+        private static void NextWave()
+        {
+            AnsiConsole.Clear();
+            TopSpace(10);
+            var loseTitle = new Panel(new FigletText("           NEXT WAVE!").Color(Color.Red))
+                .BorderColor(Color.Black);
+            AnsiConsole.Write(loseTitle);
+            Thread.Sleep(2000);
+        }
+
+        internal static void Win()
         {
             AnsiConsole.Clear();
             TopSpace(10);

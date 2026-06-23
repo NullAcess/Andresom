@@ -23,5 +23,5 @@ abstract internal class Hero : Entity
             return true; 
         }
     }
-    public void RestoreStamina() => StaminaSettings(this);
+    public void RestoreUserStamina(bool isNewWave = false) => StaminaSettings(this, isNewWave);
 }
