@@ -24,4 +24,10 @@ abstract internal class Hero : Entity
         }
     }
     public void RestoreUserStamina(bool isNewWave = false) => StaminaSettings(this, isNewWave);
+
+    private protected override void AttackedUserTarget(Entity target, Entity initiator)
+    {
+        if (this.Health - Weapon.SetDamage(initiator.Weapon.Damage) * PhysicalResist <= 0) Health = 0;
+        else this.Health -= (byte)(Weapon.SetDamage(initiator.Weapon.Damage) * PhysicalResist);
+    }
 }

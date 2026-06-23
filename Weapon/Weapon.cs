@@ -1,4 +1,5 @@
 ﻿using Andresom.DamageTypes;
+using System.Runtime.CompilerServices;
 
 namespace Andresom.Weapones
 {
@@ -13,6 +14,16 @@ namespace Andresom.Weapones
             this.RequirementEnergy = requirementEnergy;
             this.DamageTypes = damageTypes;
             this.Damage = damage;
+        }
+
+        internal int SetDamage(int damage)
+        {
+            Random random = new Random();
+            int critChance = random.Next(1, 101);
+            if (critChance < 10)
+                return damage *= 2;
+            else
+                return damage;
         }
     }
 }

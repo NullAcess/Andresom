@@ -18,10 +18,4 @@ internal class Archer : Hero
         this.Health = health;
         this.Stamina = stamina;
     }
-
-    private protected override void AttackedUserTarget(Entity target, Entity initiator)
-    {
-        if (this.Health - initiator.Weapon.Damage * PhysicalResist <= 0) Health = 0;
-        else this.Health -= (byte)(initiator.Weapon.Damage * PhysicalResist);
-    }
 }

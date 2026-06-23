@@ -1,8 +1,10 @@
-﻿using Andresom.Entities;
-using Andresom.Orcses;
-using Andresom.Weapones;
+﻿using Andresom.Archeres;
 using Andresom.DamageTypes;
+using Andresom.Entities;
 using Andresom.Heroes;
+using Andresom.Knightes;
+using Andresom.Weapones;
+using Andresom.Wizzardes;
 
 namespace Andresom.Enemies;
 
@@ -20,7 +22,7 @@ abstract internal class Enemy : Entity
     }
     public void AttackUser(Hero user)
     {
-        
+
         if (this.Stamina - this.Weapon.RequirementEnergy < 0) RestoreEnemyStamina();
         else
         {
@@ -29,4 +31,25 @@ abstract internal class Enemy : Entity
         }
     }
     public void RestoreEnemyStamina() => StaminaSettings(this);
+
+    private protected override void AttackedEnemyTarget(Entity target, Entity initiator)
+    {
+        if (initiator is Knight && initiator.Weapon.DamageTypes == DamageType.PhysicalResist)
+        {
+            if (this.Health - Weapon.SetDamage(initiator.Weapon.Damage) * PhisycalResist <= 0) this.Health = 0;
+            else this.Health -= (byte)(Weapon.SetDamage(initiator.Weapon.Damage) * PhisycalResist);
+        }
+
+        if (initiator is Wizzard && initiator.Weapon.DamageTypes == DamageType.MagicDamage)
+        {
+            if (this.Health - Weapon.SetDamage(initiator.Weapon.Damage) * MagicResist <= 0) this.Health = 0;
+            else this.Health -= (byte)(Weapon.SetDamage(initiator.Weapon.Damage) * MagicResist);
+        }
+
+        if (initiator is Archer && initiator.Weapon.DamageTypes == DamageType.RangeDamage)
+        {
+            if (this.Health - Weapon.SetDamage(initiator.Weapon.Damage) * RangeResist <= 0) this.Health = 0;
+            else this.Health -= (byte)(Weapon.SetDamage(initiator.Weapon.Damage) * RangeResist);
+        }
+    }
 }
