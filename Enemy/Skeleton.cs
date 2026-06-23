@@ -20,7 +20,7 @@ internal class Skeleton : Enemy
         this.Stamina = stamina;
     }
 
-    private protected override void Attacked_Enemy_Target(Entity target, Entity initiator)
+    private protected override void AttackedEnemyTarget(Entity target, Entity initiator)
     {
         if (initiator is Knight && initiator.Weapon.DamageTypes == DamageType.PhysicalResist)
         {

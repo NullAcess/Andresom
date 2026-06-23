@@ -19,7 +19,7 @@ abstract internal class Hero : Entity
         else 
         { 
             this.Stamina -= this.Weapon.RequirementEnergy;
-            Attacked_Enemy_Target(enemy, this); 
+            AttackedEnemyTarget(enemy, this); 
             return true; 
         }
     }

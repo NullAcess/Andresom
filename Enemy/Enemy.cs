@@ -24,7 +24,7 @@ abstract internal class Enemy : Entity
         else
         {
             this.Stamina -= this.Weapon.RequirementEnergy;
-            Attacked_User_Target(user, this);
+            AttackedUserTarget(user, this);
         }
     }
     public void RestoreStamina() => StaminaSettings(this);

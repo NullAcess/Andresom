@@ -25,16 +25,16 @@ abstract internal class Entity
         this.Stamina = stamina;
     }
 
-    private protected virtual void Attacked_Enemy_Target(Entity target, Entity initiator)
+    private protected virtual void AttackedEnemyTarget(Entity target, Entity initiator)
     {
-        if(target is Orc) target.Attacked_Enemy_Target(target, initiator);
-        if(target is Skeleton) target.Attacked_Enemy_Target(target, initiator);
+        if(target is Orc) target.AttackedEnemyTarget(target, initiator);
+        if(target is Skeleton) target.AttackedEnemyTarget(target, initiator);
     }
-    private protected virtual void Attacked_User_Target(Entity target, Entity initiator)
+    private protected virtual void AttackedUserTarget(Entity target, Entity initiator)
     {
-        if (target is Knight) target.Attacked_User_Target(target, initiator);
-        if (target is Wizzard) target.Attacked_User_Target(target, initiator);
-        if (target is Archer) target.Attacked_User_Target(target, initiator);
+        if (target is Knight) target.AttackedUserTarget(target, initiator);
+        if (target is Wizzard) target.AttackedUserTarget(target, initiator);
+        if (target is Archer) target.AttackedUserTarget(target, initiator);
     }
 
     private protected void StaminaSettings(Entity target)
