@@ -22,6 +22,9 @@ abstract internal class Entity
 
     public Entity(Weapon weapon, string model, byte health, byte stamina, float physicalResist, float magicResist, float rangeResist)
     {
+        PhysicalResist = physicalResist;
+        MagicResist = magicResist;
+        RangeResist = rangeResist;
         Weapon = weapon;
         Model = model;
         Health = health;
@@ -31,6 +34,7 @@ abstract internal class Entity
     public bool AttackTarget(Entity target)
     {
         if (Stamina - Weapon.RequirementEnergy < 0) return false;
+        Stamina -= Weapon.RequirementEnergy;
 
         if (Weapon.DamageTypes == DamageType.PhysicalDamage)
             target.Health -= (byte)(Weapon.Damage * target.PhysicalResist);
