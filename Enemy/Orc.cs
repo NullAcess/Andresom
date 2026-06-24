@@ -10,13 +10,8 @@ namespace Andresom.Orcses;
 
 internal class Orc : Enemy
 {
-    public Orc(Weapon weapon, float physicalResist, float magicResist, float rangeResist, string model, byte health, byte stamina) : base(weapon, physicalResist, magicResist, rangeResist, model, health, stamina)
+    public Orc(Weapon weapon, string model, byte health, byte stamina, float physicalResist, float magicResist, float rangeResist) : base(weapon, model, health, stamina, physicalResist, magicResist, rangeResist)
     {
-        this.PhisycalResist = physicalResist;
-        this.MagicResist = magicResist;
-        this.RangeResist = rangeResist;
-        this.Model = model;
-        this.Health = health;
-        this.Stamina = stamina;
+
     }
 }

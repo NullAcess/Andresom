@@ -3,7 +3,7 @@
 public enum DamageType : byte
 {
     None = 0,
-    PhysicalResist,
+    PhysicalDamage,
     MagicDamage,
     RangeDamage
 }

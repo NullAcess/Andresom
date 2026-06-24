@@ -12,38 +12,39 @@ namespace Andresom.Entities;
 
 abstract internal class Entity
 {
+    public float PhysicalResist { get; private protected set; }
+    public float MagicResist { get; private protected set; }
+    public float RangeResist { get; private protected set; }
     public string Model { get; private protected set; } = "Model not found";
     public Weapon Weapon { get; private protected set; }
-    public byte Health { get; private protected set; } = 100;
-    public byte Stamina { get; private protected set; } = 100;
+    public byte Health { get; private protected set; }
+    public byte Stamina { get; private protected set; }
 
-    public Entity(Weapon weapon, string model, byte health, byte stamina)
+    public Entity(Weapon weapon, string model, byte health, byte stamina, float physicalResist, float magicResist, float rangeResist)
     {
-        this.Weapon = weapon;
-        this.Model = model;
-        this.Health = health;
-        this.Stamina = stamina;
+        Weapon = weapon;
+        Model = model;
+        Health = health;
+        Stamina = stamina;
     }
 
-    private protected virtual void AttackedEnemyTarget(Entity target, Entity initiator)
+    public bool AttackTarget(Entity target)
     {
-        if(target is Enemy) target.AttackedEnemyTarget(target, initiator);
+        if (Stamina - Weapon.RequirementEnergy < 0) return false;
+
+        if (Weapon.DamageTypes == DamageType.PhysicalDamage)
+            target.Health -= (byte)(Weapon.Damage * target.PhysicalResist);
+        else if(Weapon.DamageTypes == DamageType.MagicDamage)
+            target.Health -= (byte)(Weapon.Damage * target.MagicResist);
+        else if(Weapon.DamageTypes == DamageType.RangeDamage)
+            target.Health -= (byte)(Weapon.Damage * target.RangeResist);
+
+        return true;
     }
 
-    private protected virtual void AttackedUserTarget(Entity target, Entity initiator)
+    public void RestoreStamina()
     {
-        if (target is Hero) target.AttackedUserTarget(target, initiator);
-    }
-
-    private protected void StaminaSettings(Entity target, bool isNewWave = false)
-    {
-        if (isNewWave)
-        {
-            target.Stamina = 100;
-            return;
-        }
-
-        if(target.Stamina + 10 >= 100) target.Stamina = 100;
-        else target.Stamina += 10;
+        if (Stamina + 10 >= 100) Stamina = 100;
+        else Stamina += 10;
     }
 }
