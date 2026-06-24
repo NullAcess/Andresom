@@ -27,14 +27,12 @@ abstract internal class Entity
 
     private protected virtual void AttackedEnemyTarget(Entity target, Entity initiator)
     {
-        if(target is Orc) target.AttackedEnemyTarget(target, initiator);
-        if(target is Skeleton) target.AttackedEnemyTarget(target, initiator);
+        if(target is Enemy) target.AttackedEnemyTarget(target, initiator);
     }
+
     private protected virtual void AttackedUserTarget(Entity target, Entity initiator)
     {
-        if (target is Knight) target.AttackedUserTarget(target, initiator);
-        if (target is Wizzard) target.AttackedUserTarget(target, initiator);
-        if (target is Archer) target.AttackedUserTarget(target, initiator);
+        if (target is Hero) target.AttackedUserTarget(target, initiator);
     }
 
     private protected void StaminaSettings(Entity target, bool isNewWave = false)

@@ -1,8 +1,6 @@
 ﻿using Andresom.Enemies;
 using Andresom.Heroes;
 using Andresom.HeroTypes;
-using Andresom.Orcses;
-using Andresom.Skeletones;
 using Spectre.Console;
 
 namespace Andresom.Screenes
@@ -162,41 +160,42 @@ namespace Andresom.Screenes
                 actionRule.Justification = Justify.Center;
                 AnsiConsole.Write(actionRule);
 
+                int enemyDialogProcent = random.Next(1, 101);
+                if (enemyDialogProcent <= 4) { AnsiConsole.WriteLine("Enemy: 😡 You will regret this!"); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else if (enemyDialogProcent > 4 && enemyDialogProcent <= 8) { AnsiConsole.WriteLine("Enemy: 😡 Watch your back!!!"); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else if (enemyDialogProcent > 8 && enemyDialogProcent <= 10) { AnsiConsole.WriteLine("Enemy: 😡 I'm warning you..."); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else if (enemyDialogProcent > 10 && enemyDialogProcent <= 12) { AnsiConsole.WriteLine("Enemy: 😡 Don't push your luck."); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else { }
+
+                TopSpace(19);
                 var choice = AnsiConsole
                         .Prompt(new SelectionPrompt<string>() // собираем список
                         .HighlightStyle(new Style(foreground: Color.Red)) // цвет выбранного пункта списка
-                        .AddChoices($"Attack ( -{user.Weapon.RequirementEnergy} energy )", "Skip ( +10 energy )", "Inventory", "Exit game")); // варианты списака
+                        .AddChoices($"Attack ( -{user.Weapon.RequirementEnergy} energy )       ", "Skip ( +10 energy )", "Inventory", "Exit game")); // варианты списака
 
                 switch (choice)
                 {
-                    case $"Attack ( -10 energy )":
-                    case $"Attack ( -15 energy )":
-                    case $"Attack ( -20 energy )": if (!user.AttackEnemy(enemy)) Energy(); break;
+                    case $"Attack ( -10 energy )       ":
+                    case $"Attack ( -15 energy )       ":
+                    case $"Attack ( -20 energy )       ": if (!user.AttackEnemy(enemy)) Energy(); break;
                     case "Skip ( +10 energy )": user.RestoreUserStamina(); break;
                     case "Exit game": GoodBye(); break;
                 }
 
-                    if (enemy.Health <= 0)
-                    {
-                        Console.WriteLine("Enemy: 💀 Aaaahhhhhhh........");
-                        Thread.Sleep(2500);
+                if (enemy.Health <= 0)
+                {
+                    Console.WriteLine("Enemy: 💀 Aaaahhhhhhh........");
+                    Thread.Sleep(2500);
 
-                        if (countOfWaves == 1) return;
+                    if (countOfWaves == 1) return;
 
-                        NextWave();
-                        user.RestoreUserStamina(true);
-                        return;
-                    }
-
-                int enemyDialogProcent = random.Next(1, 101);
-                if (enemyDialogProcent < 8) { AnsiConsole.WriteLine("Enemy: 😡 You will regret this!"); Thread.Sleep(2500); }
-                else if (enemyDialogProcent > 8 && enemyDialogProcent <= 15) { AnsiConsole.WriteLine("Enemy: 😡 Watch your back!!!"); Thread.Sleep(2500); }
-                else if (enemyDialogProcent > 15 && enemyDialogProcent <= 25) { AnsiConsole.WriteLine("Enemy: 😡 I'm warning you..."); Thread.Sleep(2500); }
-                else if (enemyDialogProcent > 25 && enemyDialogProcent <= 35) { AnsiConsole.WriteLine("Enemy: 😡 Don't push your luck."); Thread.Sleep(2500); }
-                else { }
+                    NextWave();
+                    user.RestoreUserStamina(true);
+                    return;
+                }
 
                 int enemyChoiceProcent = random.Next(1, 101);
-                if(enemyChoiceProcent < 70) enemy.AttackUser(user);
+                if (enemyChoiceProcent < 70) enemy.AttackUser(user);
                 else enemy.RestoreEnemyStamina();
             }
         }
