@@ -6,12 +6,8 @@ namespace Andresom.Wizzardes;
 
 internal class Wizzard : Hero
 {
-    public Wizzard(Weapon weapon, string model, byte health, byte stamina, float physicalResist) : base(weapon, model, health, stamina, physicalResist)
+    public Wizzard(Weapon weapon, string model, byte health, byte stamina, float physicalResist, float magicResist, float rangeResist) : base(weapon, model, health, stamina, physicalResist, magicResist, rangeResist)
     {
-        this.PhysicalResist = physicalResist;
-        this.Weapon = weapon;
-        this.Model = model;
-        this.Health = health;
-        this.Stamina = stamina;
+
     }
 }

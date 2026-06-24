@@ -1,4 +1,5 @@
 ﻿using Andresom.Enemies;
+using Andresom.Entities;
 using Andresom.Heroes;
 using Andresom.HeroTypes;
 using Spectre.Console;
@@ -9,7 +10,6 @@ namespace Andresom.Screenes
     {
         public static void LoadingGame()
         {
-
             var updatePanel = new Panel("- Пофикшено меню\n\n-Добавлен полный выбор героев\n\n-Добавлен экран боя\n\n-Добавлен интерфейс") // создаем панель UPDATES
             .Header("[red]UPDATES 22.06.2026[/]", Justify.Center) // название отображемого мен юи место положения названия
             .Border(BoxBorder.Rounded) // тип обводки панели
@@ -110,7 +110,7 @@ namespace Andresom.Screenes
         }
 
 
-        public static void Fight(Enemy enemy, Hero user, ref int countOfWaves)
+        public static void Fight(Entity enemy, Entity user, ref int countOfWaves)
         {
             Random random = new Random();
             string enemyModel = enemy.Model;
@@ -161,10 +161,10 @@ namespace Andresom.Screenes
                 AnsiConsole.Write(actionRule);
 
                 int enemyDialogProcent = random.Next(1, 101);
-                if (enemyDialogProcent <= 4) { AnsiConsole.WriteLine("Enemy: 😡 You will regret this!"); Thread.Sleep(2500); Console.WriteLine("\r "); }
-                else if (enemyDialogProcent > 4 && enemyDialogProcent <= 8) { AnsiConsole.WriteLine("Enemy: 😡 Watch your back!!!"); Thread.Sleep(2500); Console.WriteLine("\r "); }
-                else if (enemyDialogProcent > 8 && enemyDialogProcent <= 10) { AnsiConsole.WriteLine("Enemy: 😡 I'm warning you..."); Thread.Sleep(2500); Console.WriteLine("\r "); }
-                else if (enemyDialogProcent > 10 && enemyDialogProcent <= 12) { AnsiConsole.WriteLine("Enemy: 😡 Don't push your luck."); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                if (enemyDialogProcent <= 2) { AnsiConsole.WriteLine("Enemy: 😡 You will regret this!"); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else if (enemyDialogProcent > 2 && enemyDialogProcent <= 4) { AnsiConsole.WriteLine("Enemy: 😡 Watch your back!!!"); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else if (enemyDialogProcent > 4 && enemyDialogProcent <= 6) { AnsiConsole.WriteLine("Enemy: 😡 I'm warning you..."); Thread.Sleep(2500); Console.WriteLine("\r "); }
+                else if (enemyDialogProcent > 6 && enemyDialogProcent <= 8) { AnsiConsole.WriteLine("Enemy: 😡 Don't push your luck."); Thread.Sleep(2500); Console.WriteLine("\r "); }
                 else { }
 
                 TopSpace(19);
@@ -177,8 +177,8 @@ namespace Andresom.Screenes
                 {
                     case $"Attack ( -10 energy )       ":
                     case $"Attack ( -15 energy )       ":
-                    case $"Attack ( -20 energy )       ": if (!user.AttackEnemy(enemy)) Energy(); break;
-                    case "Skip ( +10 energy )": user.RestoreUserStamina(); break;
+                    case $"Attack ( -20 energy )       ": if (!user.AttackTarget(enemy)) Energy(); break;
+                    case "Skip ( +10 energy )": user.RestoreStamina(); break;
                     case "Exit game": GoodBye(); break;
                 }
 
@@ -190,13 +190,13 @@ namespace Andresom.Screenes
                     if (countOfWaves == 1) return;
 
                     NextWave();
-                    user.RestoreUserStamina(true);
+                    user.RestoreStamina();
                     return;
                 }
 
                 int enemyChoiceProcent = random.Next(1, 101);
-                if (enemyChoiceProcent < 70) enemy.AttackUser(user);
-                else enemy.RestoreEnemyStamina();
+                if (enemyChoiceProcent < 70) enemy.AttackTarget(user);
+                else enemy.RestoreStamina();
             }
         }
 

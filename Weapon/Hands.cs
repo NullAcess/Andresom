@@ -1,11 +1,11 @@
 ﻿using Andresom.DamageTypes;
 using Andresom.Weapones;
 
-namespace Andresom.NastyClubes
+namespace Andresom.Handes
 {
-    internal class Hands : Weapon
+    internal class Hand : Weapon
     {
-        public Hands(byte requirementEnergy, DamageType damageType, byte damage) : base(requirementEnergy, damageType, damage)
+        public Hand(byte requirementEnergy, DamageType damageType, byte damage) : base(requirementEnergy, damageType, damage)
         {
 
         }
