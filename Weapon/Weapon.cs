@@ -2,7 +2,7 @@
 
 namespace Andresom.Weapones
 {
-    internal class Weapon
+    public class Weapon
     {
         public byte RequirementEnergy { get; private protected set; }
         public DamageType DamageTypes { get; private protected set; }
@@ -13,7 +13,7 @@ namespace Andresom.Weapones
             {
                 Random random = new Random();
                 int critChance = random.Next(1, 101);
-                if (critChance < 10) return damage *= 2;
+                if (critChance < 10) return (byte)(damage * 2);
                 else return damage;
             }
             set { damage = value; }
@@ -21,9 +21,9 @@ namespace Andresom.Weapones
 
         public Weapon(byte requirementEnergy, DamageType damageTypes, byte damage)
         {
-            this.RequirementEnergy = requirementEnergy;
-            this.DamageTypes = damageTypes;
-            this.Damage = damage;
+            RequirementEnergy = requirementEnergy;
+            DamageTypes = damageTypes;
+            Damage = damage;
         }
     }
 }

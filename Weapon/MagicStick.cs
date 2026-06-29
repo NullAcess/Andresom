@@ -5,7 +5,10 @@ namespace Andresom.MagicStickes
 {
     internal class MagicStick : Weapon
     {
-        public MagicStick(byte requirementEnergy, DamageType damageType, byte damage) : base(requirementEnergy, damageType, damage)
+        private const byte _requirementEnergy = 15;
+        private const DamageType _damageType = DamageType.MagicDamage;
+        private const byte _damage = 25;
+        public MagicStick() : base(_requirementEnergy, _damageType, _damage)
         {
 
         }

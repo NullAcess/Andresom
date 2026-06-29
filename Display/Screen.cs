@@ -3,6 +3,7 @@ using Andresom.Entities;
 using Andresom.Heroes;
 using Andresom.HeroTypes;
 using Spectre.Console;
+using System.Net.NetworkInformation;
 
 namespace Andresom.Screenes
 {
@@ -178,7 +179,7 @@ namespace Andresom.Screenes
                     case $"Attack ( -10 energy )       ":
                     case $"Attack ( -15 energy )       ":
                     case $"Attack ( -20 energy )       ": if (!user.AttackTarget(enemy)) Energy(); break;
-                    case "Skip ( +10 energy )": user.RestoreStamina(); break;
+                    case "Skip ( +10 energy )": user.RestoreStamina(isNewRound: false); break;
                     case "Exit game": GoodBye(); break;
                 }
 
@@ -190,13 +191,13 @@ namespace Andresom.Screenes
                     if (countOfWaves == 1) return;
 
                     NextWave();
-                    user.RestoreStamina();
+                    user.RestoreStamina(isNewRound: true);
                     return;
                 }
 
                 int enemyChoiceProcent = random.Next(1, 101);
                 if (enemyChoiceProcent < 70) enemy.AttackTarget(user);
-                else enemy.RestoreStamina();
+                else enemy.RestoreStamina(isNewRound: false);
             }
         }
 

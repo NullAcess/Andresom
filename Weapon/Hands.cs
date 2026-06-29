@@ -5,7 +5,10 @@ namespace Andresom.Handes
 {
     internal class Hand : Weapon
     {
-        public Hand(byte requirementEnergy, DamageType damageType, byte damage) : base(requirementEnergy, damageType, damage)
+        private const byte _requirementEnergy = 15;
+        private const DamageType _damageType = DamageType.PhysicalDamage;
+        private const byte _damage = 20;
+        public Hand() : base(_requirementEnergy, _damageType, _damage)
         {
 
         }
