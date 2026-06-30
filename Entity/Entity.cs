@@ -1,12 +1,12 @@
 using Andresom.DamageTypes;
 using Andresom.Enemies;
-using Andresom.Weapones;
 using Andresom.Heroes;
 using Andresom.Orcses;
 using Andresom.Skeletones;
 using Andresom.Knightes;
 using Andresom.Wizzardes;
 using Andresom.Archeres;
+using Andresom.Items.Weapones;
 
 namespace Andresom.Entities;
 
@@ -47,15 +47,9 @@ abstract internal class Entity
 
         byte baseDamage = Weapon.Damage;
         byte finalDamage = (byte)(baseDamage * currentResist);
-
-        System.Console.WriteLine($"\n[DEBUG] {this.GetType().Name} attacks {target.GetType().Name}!");
-        System.Console.WriteLine($"[DEBUG] Weapon Damage: {baseDamage} | Target Resist: {currentResist} | Calculated Final Damage: {finalDamage}");
         
         if (target.Health - finalDamage <= 0) target.Health = 0;
         else target.Health -= finalDamage;
-
-        System.Console.WriteLine($"[DEBUG] Target Health: {target.Health}");
-        System.Threading.Thread.Sleep(2000);
 
         return true;
     }

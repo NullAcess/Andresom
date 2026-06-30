@@ -3,91 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\weapon\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\weapon\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\weapon\\hands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\weapon\\hands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\weapon\\magicstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\weapon\\magicstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\weapon\\nastyclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\weapon\\nastyclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\display\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:display\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\weapon\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:weapon\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\weapon\\hands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:weapon\\hands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\weapon\\magicstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:weapon\\magicstick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\weapon\\nastyclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:weapon\\nastyclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:weapon\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\enemy\\orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:enemy\\orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\enemy\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:enemy\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\wizzard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\wizzard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\items\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:items\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\andresom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:andresom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\types\\herotypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:types\\herotypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\types\\enemytypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:types\\enemytypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ll1on\\AppData\\Local\\Temp\\q0us4o2d.dgml||{295A0962-5A59-4F4F-9E12-6BC670C15C3B}"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\types\\damagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:types\\damagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\enemy\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:enemy\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\enemy\\orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:enemy\\orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\hero\\wizzard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:hero\\wizzard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\types\\enemytypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:types\\enemytypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\types\\damagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:types\\damagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\types\\herotypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:types\\herotypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|c:\\users\\ll1on\\documents\\coding\\github\\andresom\\andresom\\andresom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BFDE735E-C42A-2764-7461-D6EC06559990}|Andresom.csproj|solutionrelative:andresom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ll1on\\AppData\\Local\\Temp\\q0us4o2d.dgml||{295A0962-5A59-4F4F-9E12-6BC670C15C3B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ll1on\\AppData\\Local\\Temp\\0yvivgxz.dgml||{295A0962-5A59-4F4F-9E12-6BC670C15C3B}"
@@ -115,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -123,65 +131,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T20:25:15.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Orc.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Orc.cs",
-              "RelativeDocumentMoniker": "Enemy\\Orc.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Orc.cs",
-              "RelativeToolTip": "Enemy\\Orc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T19:23:03.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Sword.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Sword.cs",
-              "RelativeDocumentMoniker": "Weapon\\Sword.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Sword.cs",
-              "RelativeToolTip": "Weapon\\Sword.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Title": "Screen.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Display\\Screen.cs",
+              "RelativeDocumentMoniker": "Display\\Screen.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Display\\Screen.cs",
+              "RelativeToolTip": "Display\\Screen.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwLgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T19:45:39.273Z",
+              "WhenOpened": "2026-06-23T14:14:22.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Items\\Inventory\\Inventory.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Inventory\\Inventory.cs",
+              "RelativeToolTip": "Items\\Inventory\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T08:47:43.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Hero.cs",
+              "RelativeDocumentMoniker": "Hero\\Hero.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Hero.cs",
+              "RelativeToolTip": "Hero\\Hero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:26:10.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T08:22:24.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Weapon.cs",
-              "RelativeDocumentMoniker": "Weapon\\Weapon.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Weapon.cs",
-              "RelativeToolTip": "Weapon\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Weapon.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon\\Weapon.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Weapon.cs",
+              "RelativeToolTip": "Items\\Weapon\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T19:43:24.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Sword.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon\\Sword.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Sword.cs",
+              "RelativeToolTip": "Items\\Weapon\\Sword.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T19:45:39.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "NastyClub.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\NastyClub.cs",
-              "RelativeDocumentMoniker": "Weapon\\NastyClub.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\NastyClub.cs",
-              "RelativeToolTip": "Weapon\\NastyClub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\NastyClub.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon\\NastyClub.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\NastyClub.cs",
+              "RelativeToolTip": "Items\\Weapon\\NastyClub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T20:05:19.349Z",
               "EditorCaption": ""
@@ -190,11 +224,11 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MagicStick.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\MagicStick.cs",
-              "RelativeDocumentMoniker": "Weapon\\MagicStick.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\MagicStick.cs",
-              "RelativeToolTip": "Weapon\\MagicStick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\MagicStick.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon\\MagicStick.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\MagicStick.cs",
+              "RelativeToolTip": "Items\\Weapon\\MagicStick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T10:06:41.866Z",
               "EditorCaption": ""
@@ -203,11 +237,11 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Hands.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Hands.cs",
-              "RelativeDocumentMoniker": "Weapon\\Hands.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Hands.cs",
-              "RelativeToolTip": "Weapon\\Hands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Hands.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon\\Hands.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Hands.cs",
+              "RelativeToolTip": "Items\\Weapon\\Hands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T09:53:39.642Z",
               "EditorCaption": ""
@@ -216,52 +250,26 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Bow.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Bow.cs",
-              "RelativeDocumentMoniker": "Weapon\\Bow.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Weapon\\Bow.cs",
-              "RelativeToolTip": "Weapon\\Bow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Bow.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon\\Bow.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Items\\Weapon\\Bow.cs",
+              "RelativeToolTip": "Items\\Weapon\\Bow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T11:17:21.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Screen.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Display\\Screen.cs",
-              "RelativeDocumentMoniker": "Display\\Screen.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Display\\Screen.cs",
-              "RelativeToolTip": "Display\\Screen.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAcwMYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:14:22.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Entity\\Entity.cs",
-              "RelativeDocumentMoniker": "Entity\\Entity.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Entity\\Entity.cs",
-              "RelativeToolTip": "Entity\\Entity.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:26:25.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Skeleton.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Skeleton.cs",
-              "RelativeDocumentMoniker": "Enemy\\Skeleton.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Skeleton.cs",
-              "RelativeToolTip": "Enemy\\Skeleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T19:53:33.262Z",
+              "WhenOpened": "2026-06-22T20:25:15.36Z",
               "EditorCaption": ""
             },
             {
@@ -272,7 +280,7 @@
               "RelativeDocumentMoniker": "Hero\\Archer.cs",
               "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Archer.cs",
               "RelativeToolTip": "Hero\\Archer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T19:54:28.807Z",
               "EditorCaption": ""
@@ -280,45 +288,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Wizzard.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Wizzard.cs",
-              "RelativeDocumentMoniker": "Hero\\Wizzard.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Wizzard.cs",
-              "RelativeToolTip": "Hero\\Wizzard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T19:54:25.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Knight.cs",
               "RelativeDocumentMoniker": "Hero\\Knight.cs",
               "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Knight.cs",
               "RelativeToolTip": "Hero\\Knight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T19:41:45.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Hero.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Hero.cs",
-              "RelativeDocumentMoniker": "Hero\\Hero.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Hero.cs",
-              "RelativeToolTip": "Hero\\Hero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Entity\\Entity.cs",
+              "RelativeDocumentMoniker": "Entity\\Entity.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Entity\\Entity.cs",
+              "RelativeToolTip": "Entity\\Entity.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:26:10.042Z",
+              "WhenOpened": "2026-06-23T14:26:25.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Orc.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Orc.cs",
+              "RelativeDocumentMoniker": "Enemy\\Orc.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Orc.cs",
+              "RelativeToolTip": "Enemy\\Orc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T19:23:03.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Skeleton.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Skeleton.cs",
+              "RelativeDocumentMoniker": "Enemy\\Skeleton.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Skeleton.cs",
+              "RelativeToolTip": "Enemy\\Skeleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T19:53:33.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Wizzard.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Wizzard.cs",
+              "RelativeDocumentMoniker": "Hero\\Wizzard.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Hero\\Wizzard.cs",
+              "RelativeToolTip": "Hero\\Wizzard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T19:54:25.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Enemy\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:27:56.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "EnemyTypes.cs",
               "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Types\\EnemyTypes.cs",
               "RelativeDocumentMoniker": "Types\\EnemyTypes.cs",
@@ -326,23 +373,25 @@
               "RelativeToolTip": "Types\\EnemyTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:41:44.405Z"
+              "WhenOpened": "2026-06-24T10:41:44.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Andresom.csproj",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj",
-              "RelativeDocumentMoniker": "Andresom.csproj",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj",
-              "RelativeToolTip": "Andresom.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T13:07:50.976Z"
+              "DocumentIndex": 19,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "Models\\Models.cs",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Models\\Models.cs",
+              "RelativeToolTip": "Models\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:43:08.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "HeroTypes.cs",
               "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Types\\HeroTypes.cs",
               "RelativeDocumentMoniker": "Types\\HeroTypes.cs",
@@ -354,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DamageTypes.cs",
               "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Types\\DamageTypes.cs",
               "RelativeDocumentMoniker": "Types\\DamageTypes.cs",
@@ -366,7 +415,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
+              "Title": "Andresom.csproj",
+              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj",
+              "RelativeDocumentMoniker": "Andresom.csproj",
+              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Andresom.csproj",
+              "RelativeToolTip": "Andresom.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-24T13:07:50.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "q0us4o2d.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\q0us4o2d.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\q0us4o2d.dgml",
@@ -378,31 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAADVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:27:56.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Models\\Models.cs",
-              "RelativeDocumentMoniker": "Models\\Models.cs",
-              "ToolTip": "C:\\Users\\ll1on\\Documents\\Coding\\GitHub\\Andresom\\Andresom\\Models\\Models.cs",
-              "RelativeToolTip": "Models\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T06:43:08.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "0yvivgxz.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\0yvivgxz.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\0yvivgxz.dgml",
@@ -414,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "mxsnshgy.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\mxsnshgy.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\mxsnshgy.dgml",
@@ -426,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "fj4vwjek.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\fj4vwjek.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\fj4vwjek.dgml",
@@ -438,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "4zyawfbq.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\4zyawfbq.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\4zyawfbq.dgml",
@@ -450,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "gqvw4ysv.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\gqvw4ysv.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\gqvw4ysv.dgml",
@@ -462,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "makrlnu3.dgml [Viewer]",
               "DocumentMoniker": "C:\\Users\\ll1on\\AppData\\Local\\Temp\\makrlnu3.dgml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\makrlnu3.dgml",

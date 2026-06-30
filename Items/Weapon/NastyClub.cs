@@ -1,14 +1,15 @@
 ﻿using Andresom.DamageTypes;
-using Andresom.Weapones;
+using Andresom.Items.Weapones;
 
-namespace Andresom.NastyClubes
+namespace Andresom.Items.Weapones.NastyClubs
 {
     internal class NastyClub : Weapon
     {
+        public const string _name = "NastyClub";
         private const byte _requirementEnergy = 30;
         private const DamageType _damageType = DamageType.PhysicalDamage;
         private const byte _damage = 75;
-        public NastyClub() : base(_requirementEnergy, _damageType, _damage)
+        public NastyClub() : base(_name, _requirementEnergy, _damageType, _damage)
         {
 
         }

@@ -1,6 +1,6 @@
 ﻿using Andresom.Entities;
 using Andresom.Heroes;
-using Andresom.Weapones;
+using Andresom.Items.Weapones;
 
 namespace Andresom.Wizzardes;
 

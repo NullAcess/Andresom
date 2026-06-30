@@ -2,8 +2,9 @@
 using Andresom.DamageTypes;
 using Andresom.Entities;
 using Andresom.Heroes;
+using Andresom.Items;
+using Andresom.Items.Weapones;
 using Andresom.Knightes;
-using Andresom.Weapones;
 using Andresom.Wizzardes;
 
 namespace Andresom.Enemies;
@@ -14,4 +15,6 @@ abstract internal class Enemy : Entity
     {
 
     }
+
+    public abstract Item DropItem();
 }

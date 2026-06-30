@@ -2,8 +2,9 @@
 using Andresom.DamageTypes;
 using Andresom.Enemies;
 using Andresom.Entities;
+using Andresom.Items;
+using Andresom.Items.Weapones;
 using Andresom.Knightes;
-using Andresom.Weapones;
 using Andresom.Wizzardes;
 
 namespace Andresom.Skeletones;
@@ -19,5 +20,13 @@ internal class Skeleton : Enemy
     public Skeleton(Weapon weapon, string model) : base(weapon, model, _health, _stamina, _physicalResist, _magicResist, _rangeResist)
     {
 
+    }
+
+    public override Item DropItem()
+    {
+        Random random = new Random();
+        int dropChance = random.Next(0, 101);
+        if (dropChance < 6) return Weapon;
+        else return null;
     }
 }

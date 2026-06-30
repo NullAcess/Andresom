@@ -1,9 +1,9 @@
 ﻿using Andresom.DamageTypes;
 using Andresom.Entities;
 using Andresom.Heroes;
+using Andresom.Items.Weapones;
 using Andresom.Knightes;
 using Andresom.Orcses;
-using Andresom.Weapones;
 using Andresom.Wizzardes;
 
 namespace Andresom.Archeres;

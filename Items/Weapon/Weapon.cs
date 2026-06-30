@@ -1,9 +1,10 @@
 ﻿using Andresom.DamageTypes;
 
-namespace Andresom.Weapones
+namespace Andresom.Items.Weapones
 {
-    public class Weapon
+    public class Weapon : Item
     {
+        public new string Name { get; private protected set; } = "Not found a weapon";
         public byte RequirementEnergy { get; private protected set; }
         public DamageType DamageTypes { get; private protected set; }
         private byte damage;
@@ -19,7 +20,7 @@ namespace Andresom.Weapones
             set { damage = value; }
         }
 
-        public Weapon(byte requirementEnergy, DamageType damageTypes, byte damage)
+        public Weapon(string name, byte requirementEnergy, DamageType damageTypes, byte damage) : base(name)
         {
             RequirementEnergy = requirementEnergy;
             DamageTypes = damageTypes;

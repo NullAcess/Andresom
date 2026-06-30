@@ -1,9 +1,10 @@
-﻿using Andresom.Enemies;
+using Andresom.Enemies;
 using Andresom.Entities;
 using Andresom.Heroes;
 using Andresom.HeroTypes;
+using Andresom.Items;
 using Spectre.Console;
-using System.Net.NetworkInformation;
+using System.Reflection.Metadata;
 
 namespace Andresom.Screenes
 {
@@ -180,6 +181,7 @@ namespace Andresom.Screenes
                     case $"Attack ( -15 energy )       ":
                     case $"Attack ( -20 energy )       ": if (!user.AttackTarget(enemy)) Energy(); break;
                     case "Skip ( +10 energy )": user.RestoreStamina(isNewRound: false); break;
+                    case "Inventory": if (user is Hero specificUser) ShowInventory(specificUser); continue;
                     case "Exit game": GoodBye(); break;
                 }
 
@@ -187,6 +189,18 @@ namespace Andresom.Screenes
                 {
                     Console.WriteLine("Enemy: 💀 Aaaahhhhhhh........");
                     Thread.Sleep(2500);
+
+                    Enemy? specificEnemy = enemy as Enemy;
+                    Hero? specificUser = user as Hero;
+
+                    if (specificEnemy != null)
+                    {
+                        Item lootedItem = specificEnemy.DropItem();
+                        if (specificUser != null)
+                        {
+                            specificUser.PlayerInventory.AddItem(lootedItem);
+                        }
+                    }
 
                     if (countOfWaves == 1) return;
 
@@ -199,58 +213,73 @@ namespace Andresom.Screenes
                 if (enemyChoiceProcent < 70) enemy.AttackTarget(user);
                 else enemy.RestoreStamina(isNewRound: false);
             }
+            static void Lose()
+            {
+                AnsiConsole.Clear();
+                TopSpace(10);
+                var loseTitle = new Panel(new FigletText("              YOU LOSE...").Color(Color.Red))
+                       .BorderColor(Color.Black);
+                AnsiConsole.Write(loseTitle);
+                Thread.Sleep(2000);
+                Environment.Exit(0);
+            }
+
+            static void Energy()
+            {
+                AnsiConsole.MarkupLine("\n[red]Недостаточно энергии![/]");
+                Thread.Sleep(1500);
+            }
+
+            static void NextWave()
+            {
+                AnsiConsole.Clear();
+                TopSpace(10);
+                var loseTitle = new Panel(new FigletText("           NEXT WAVE!").Color(Color.Red))
+                    .BorderColor(Color.Black);
+                AnsiConsole.Write(loseTitle);
+                Thread.Sleep(2000);
+            }
+
+            static void GoodBye()
+            {
+                AnsiConsole.Clear();
+
+                TopSpace(10);
+                var goodbyeTitle = new Panel(new FigletText("                 BYE BYE").Color(Color.Red))
+                    .BorderColor(Color.Black);
+                AnsiConsole.Write(goodbyeTitle);
+                Thread.Sleep(2000);
+                Environment.Exit(0);
+            }
+
+            static void ShowInventory(Hero user)
+            {
+                AnsiConsole.Clear();
+                foreach (var item in user.PlayerInventory.Items)
+                {
+                    Console.WriteLine(item.Name);
+                }
+
+                Console.WriteLine("\nClose inventory [y]");
+
+                while (true)
+                {
+                    var key = Console.ReadKey(intercept: true);
+                    if (key.Key == ConsoleKey.Y)
+                    {
+                        break;
+                    }
+                }
+            }
         }
 
-        private static void Energy()
-        {
-            AnsiConsole.Clear();
-            TopSpace(10);
-            var energyTitle = new Panel(new FigletText("           NO ENERGY!").Color(Color.Red))
-                .BorderColor(Color.Black);
-            AnsiConsole.Write(energyTitle);
-            Thread.Sleep(2000);
-            return;
-        }
-
-        private static void Lose()
-        {
-            AnsiConsole.Clear();
-            TopSpace(10);
-            var loseTitle = new Panel(new FigletText("              YOU LOSE...").Color(Color.Red))
-                .BorderColor(Color.Black);
-            AnsiConsole.Write(loseTitle);
-            Thread.Sleep(2000);
-            Environment.Exit(0);
-        }
-
-        private static void NextWave()
-        {
-            AnsiConsole.Clear();
-            TopSpace(10);
-            var loseTitle = new Panel(new FigletText("           NEXT WAVE!").Color(Color.Red))
-                .BorderColor(Color.Black);
-            AnsiConsole.Write(loseTitle);
-            Thread.Sleep(2000);
-        }
-
-        internal static void Win()
+        public static void Win()
         {
             AnsiConsole.Clear();
             TopSpace(10);
             var winTitle = new Panel(new FigletText("                 YOU WIN").Color(Color.Red))
                 .BorderColor(Color.Black);
             AnsiConsole.Write(winTitle);
-            Thread.Sleep(2000);
-            Environment.Exit(0);
-        }
-        private static void GoodBye()
-        {
-            AnsiConsole.Clear();
-
-            TopSpace(10);
-            var goodbyeTitle = new Panel(new FigletText("                 BYE BYE").Color(Color.Red))
-                .BorderColor(Color.Black);
-            AnsiConsole.Write(goodbyeTitle);
             Thread.Sleep(2000);
             Environment.Exit(0);
         }

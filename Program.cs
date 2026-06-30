@@ -1,20 +1,19 @@
 ﻿using Andresom.Archeres;
-using Andresom.Bowes;
-using Andresom.DamageTypes;
 using Andresom.Enemies;
 using Andresom.Heroes;
 using Andresom.HeroTypes;
 using Andresom.Knightes;
-using Andresom.MagicStickes;
 using Andresom.Models;
-using Andresom.NastyClubes;
 using Andresom.Orcses;
 using Andresom.Screenes;
 using Andresom.Skeletones;
-using Andresom.Swordes;
-using Andresom.Weapones;
 using Andresom.Wizzardes;
-using Andresom.Handes;
+using Andresom.Items.Weapones.Hands;
+using Andresom.Items.Weapones.Swords;
+using Andresom.Items.Weapones.MagicStickes;
+using Andresom.Items.Weapones.Bowes;
+using Andresom.Items.Weapones.NastyClubs;
+using Andresom.Items.Weapones;
 
 namespace Program;
 
